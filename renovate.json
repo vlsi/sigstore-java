@@ -23,6 +23,18 @@
       "groupName": "picocli"
     },
     {
+      "matchPackagePrefixes": ["org.eclipse.jetty"],
+      "description": "Jetty 12 requires Java 17, and we still support Java 11",
+      "groupName": "jetty",
+      "allowedVersions": "< 12"
+    },
+    {
+      "matchPackagePrefixes": ["no.nav.security:mock-oauth2-server"],
+      "description": "mock-oauth2-server 1.0.0 requires Java 17, and we still support Java 11",
+      "groupName": "mock-oauth2-server",
+      "allowedVersions": "< 1"
+    },
+    {
       "matchPackagePrefixes": ["io.github.netmikey.logunit"],
       "groupName": "logunit"
     },
